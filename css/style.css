@@ -1,0 +1,7 @@
+body { font-family: sans-serif; background: #f0f2f5; display: grid; place-items: center; height: 100vh; margin: 0; }
+
+.container { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 320px; text-align: center; }
+
+input { display: block; width: 90%; padding: 10px; margin: 10px auto; border-radius: 5px; border: 1px solid #ddd; }
+button { background: #1877f2; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; width: 100%; margin-top: 10px; }
+hr { border: 1px solid #eee; margin: 20px 0; }

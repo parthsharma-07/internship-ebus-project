@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <p>Use this panel to create new driver accounts.</p>
+        
+        <hr>
+        <h3>Create New Driver</h3>
+        <input type="email" id="driver-email" placeholder="New Driver's Email">
+        <input type="password" id="driver-password" placeholder="New Driver's Password">
+        <button id="create-driver-btn">Create Driver</button>
+
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <!-- Firebase Libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    
+    <!-- Our Scripts -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

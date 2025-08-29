@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ebus Tracker</title>
+    <!-- Leaflet CSS - Required for the map to look correct -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Give the map a size */
+        #map { height: 500px; width: 100%; } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Bus Tracker</h1>
+        
+        <!-- This div is where the map will be rendered -->
+        <div id="map"></div>
+        
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <!-- Leaflet JS - Required for map functionality -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Firebase Libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+    <!-- Our Scripts -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/user.js"></script>
+</body>
+</html>
